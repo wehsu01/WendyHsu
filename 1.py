@@ -36,4 +36,5 @@ print (testfloat, type (testfloat))
 print (testbool, type(testbool))
 print (teststr, type(teststr))
 
-#operators 
+
+
