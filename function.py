@@ -16,13 +16,16 @@
 #sum_output = cal(1,2,3,4)
 #print (sum_output)
 
+
+
+
 def numbers(n):
-    num_str = repr(n)
-    last_digit_str = num_str[-1]
-    last_digit = int(last_digit_str)
-    if (last_digit %2) == 0:
+    #num_str = repr(n)
+    #last_digit_str = num_str[-1]
+    #last_digit = int(last_digit_str)
+    if (n%2) == 0:
         output = 'even'
     else:
         output = 'odd'
     print (output)
-numbers(73204957)
+numbers(732329042304230)
