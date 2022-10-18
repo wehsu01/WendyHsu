@@ -9,3 +9,10 @@
 #finally: 
 #    print ('result')
 
+try:
+    a = [int(x) for x in input('enter numbers: ').split()]
+    print (sum(a))
+except: 
+    print ('not numbers')
+finally:
+    print ('result')
