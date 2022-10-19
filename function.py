@@ -19,13 +19,26 @@
 
 
 
-def numbers(n):
+#def numbers(n):
     #num_str = repr(n)
     #last_digit_str = num_str[-1]
     #last_digit = int(last_digit_str)
-    if (n%2) == 0:
-        output = 'even'
-    else:
-        output = 'odd'
-    print (output)
-numbers(732329042304230)
+#    if (n%2) == 0:
+#        #output = 'even'
+#    else:
+#        o#utput = 'odd'
+#    print (output)
+#numbers(732329042304230)
+
+#Recursion
+
+def factorial(n):
+    if n >= 98:
+        print('end')
+        return 1
+    else: 
+        print(n)
+        return n * factorial (n*5)
+a = input('enter numbers: ')
+b = int(a)
+factorial(b)

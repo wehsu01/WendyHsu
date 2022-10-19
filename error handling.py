@@ -15,4 +15,4 @@ try:
 except: 
     print ('not numbers')
 finally:
-    print ('result')
+    print ('end')
